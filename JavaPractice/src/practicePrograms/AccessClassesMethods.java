@@ -2,16 +2,18 @@ package practicePrograms;
 
 public class AccessClassesMethods {
 
-	//instance variables
+	//instance variables or NON Static 
 	
 	int a=10;//fields or variable or data members
+	static int b=20;//static Variable
 	public void method()//methods or data member functions
 	{
 		System.out.println("Hello I am inside the method in the class");
 	}
-	public void geta()
+	public void getab()
 	{
 		System.out.println("The value of a is "+a);
+		System.out.println("The value of b is "+b);
 	}
 	
 	public static void main(String[] args) {
@@ -19,7 +21,14 @@ public class AccessClassesMethods {
 		
 		AccessClassesMethods acm=new AccessClassesMethods();//Objecty Creations
 		acm.method();
-		acm.geta();
+		acm.getab();
+		System.out.println("The Value of a is "+acm.a);
+		acm.a=30;
+		acm.b=40;
+		b=60;
+		System.out.println("The value of a is "+acm.a);
+		System.out.println("The value of b is "+acm.b);
+		
 		
 
 	}

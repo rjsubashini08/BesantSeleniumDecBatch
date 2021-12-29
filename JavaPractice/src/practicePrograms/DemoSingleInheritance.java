@@ -23,6 +23,19 @@ int bonus;
 	
 }
 
+class Tester extends Employee
+{
+	int testerBonus;
+	
+	public void redPrintTesterBonus()
+	{
+		testerBonus=20000;
+		
+		System.out.println("Tester Bonus Amount is "+testerBonus);
+	}
+	
+}
+
 public class DemoSingleInheritance {
 
 	public static void main(String[] args) {
@@ -30,6 +43,9 @@ public class DemoSingleInheritance {
 		Programmer prog=new Programmer();
 		prog.readPrintSalary();
 		prog.readPrintBonus();
+		
+		Tester test=new Tester();
+		
 
 	}
 
