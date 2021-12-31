@@ -25,7 +25,7 @@ public class AccessClassesMethods {
 		System.out.println("The Value of a is "+acm.a);
 		acm.a=30;
 		acm.b=40;
-		b=60;
+//		b=60;
 		System.out.println("The value of a is "+acm.a);
 		System.out.println("The value of b is "+acm.b);
 		
