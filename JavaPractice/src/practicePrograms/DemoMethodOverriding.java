@@ -11,9 +11,10 @@ class Animal
 
 class Dog extends Animal
 {
-	public void eat()
+	public int eat()
 	{
 		System.out.println("Dog Eating");
+		return 0;
 	}
 }
 
