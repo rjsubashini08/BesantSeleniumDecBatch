@@ -1,11 +1,24 @@
 package practicePrograms;
 
 public class DemoMethodOverloading {
+	//Compile Time Polymorphism
+	//number of arguments, types of arguments, and order of arguments=Method Signature differes
+	//return type-same(After Java version String type also its accepting
+	//Access Specifier should be same
+	//Method Name should be same
+
 	
 	public int add(int a,int b)
 	{
 		return a+b;
 	}
+	
+	public String add()
+	{
+		return null;
+		
+	}
+	
 	public double add(int a,double b)
 	{
 		return a+b;

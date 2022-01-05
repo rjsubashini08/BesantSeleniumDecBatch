@@ -1,0 +1,4 @@
+class UNIX { protected final void whoAmI() 
+{ System.out.println("I am UNIX"); }
+ protected final void whoAmI(String name){ System.out.println("I am " + name); } }
+

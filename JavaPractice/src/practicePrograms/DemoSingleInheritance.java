@@ -1,5 +1,10 @@
 package practicePrograms;
 
+//Inheritance -acquiring the properties(data members and members functions) of one class to the another class 
+//keyword extends
+//parent or Super class or derived class
+//child class or sub class or deriving class
+
 
  class Employee
 {
@@ -45,6 +50,7 @@ public class DemoSingleInheritance {
 		prog.readPrintBonus();
 		
 		Tester test=new Tester();
+		test.redPrintTesterBonus();
 		
 
 	}

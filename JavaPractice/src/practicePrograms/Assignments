@@ -1,12 +1,12 @@
 1)Single Inheritance-Animal(Eat),Dog(Bark),Main class
-2)Multileval Inhritance-BabyDog weep
-3)Hierarchial Inheritance-Add 1 more sub class Cat(meow)
+2)Multileval Inhritance-BabyDog weep(Animal,Dog,BabyDog)
+3)Hierarchial Inheritance-Add 1 more sub class Cat(meow)(Animal,Dog-Cat)
 4)Multiple Inheritance-(Multiple super classes)
 
           GrandParent(fun)
            /     \
           /       \
-    class Parent1 fun     Parent2(Intedfce)
+classParent1 fun Parent2(Intedfce)
           \       /
            \     /
              Test
