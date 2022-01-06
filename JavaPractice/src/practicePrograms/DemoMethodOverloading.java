@@ -8,10 +8,14 @@ public class DemoMethodOverloading {
 	//Method Name should be same
 
 	
-	public int add(int a,int b)
+	public void add(int a,int b)
 	{
-		return a+b;
+		System.out.println(a+b);
 	}
+//	public void add(int d,int e,int c)
+//	{
+//		System.out.println(b+a);
+//	}
 	
 	public String add()
 	{
@@ -19,10 +23,10 @@ public class DemoMethodOverloading {
 		
 	}
 	
-	public double add(int a,double b)
-	{
-		return a+b;
-	}
+//	public double add(int a,double b)
+//	{
+//		return a+b;
+//	}
 	
 	public int add(int a,int b,int c)
 	{
