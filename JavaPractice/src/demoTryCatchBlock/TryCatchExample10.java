@@ -13,8 +13,8 @@ public class TryCatchExample10 {
         
         PrintWriter pw;  
         try {  
-//            pw = new PrintWriter("C:\\Users\\Sony\\Desktop\\Demo\\jtp.txt"); //may throw exception   
-            pw = new PrintWriter("C:\\jtp.txt"); //may throw exception   
+            pw = new PrintWriter("C:\\Users\\Sony\\Desktop\\Demo\\jtp.txt"); //may throw exception   
+//            pw = new PrintWriter("C:\\jtp.txt"); //may throw exception   
 
             pw.println("saved");  
         }  
