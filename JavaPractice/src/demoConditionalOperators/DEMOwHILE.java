@@ -10,9 +10,10 @@ public static void main(String args[])
 	 int counter=0;
 	 while(var<limit)//2.34<4.69|2.45<4.69|2.56<4.69|2.67<4.69|2.78<4.69|
 	 {
-		 var+=step;//var=var+step;=2.34+0.11=2.45+0.11=2.56+.11=2.67+.11=2.78
+		 var=var+initialValue;//var=var+step;=2.34+0.11=2.45+0.11=2.56+.11=2.67+.11=2.78
 		 counter++;//count=1+1=2+1=3+1=4
 	 }
 	 System.out.println("Incremnted "+counter+ " times");
 }
 }
+s

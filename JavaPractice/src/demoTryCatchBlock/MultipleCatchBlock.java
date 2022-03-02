@@ -3,7 +3,7 @@ package demoTryCatchBlock;
 public class MultipleCatchBlock {
 	public static void main(String args[]){    
 		   try{    
-		    int a[]=new int[6]; //Array/index based stored Varible going to store 5 elements
+		    int a[]=new int[5]; //Array/index based stored Varible going to store 5 elements
 		    //a[0]=10,a[1]=20,a[2]=30,a[3]=40,a[4]=50
 		    
 //		    int b=10;

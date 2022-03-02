@@ -13,7 +13,7 @@ public class CheckedExceptionsThrow1 {
     //main method  
     public static void main(String args[]){  
         //calling the function  
-        validate(19);  
+        validate(10);  
         System.out.println("rest of the code...");    
   }    
 }    
